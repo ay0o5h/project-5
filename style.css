@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* start header */
+ .header .uk-section {
+    background-image: url("ff2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color :white;
+    height: 500px;
+}
+.header .uk-logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+ .header .uk-section h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+.header .uk-section .uk-navbar-right li  a {
+    color: #ffffff;
+}
+.header .active {
+    border-bottom: 3px solid wheat;
+    width: 0px;
+}
+/* end header */
+/* start about us */
+.about h3 {
+    color: #000000;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.about p {
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* end about us */
+/* start spacilation */
+.spacilation {
+    background-image: url("ff1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color :white;
+}
+.spacilation .uk-section{
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+.spacilation .uk-section-muted .meal{
+    background-color: aliceblue;
+    color: black;
+    border:1px solid black;
+}
+.spacilation .uk-section-muted h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+.spacilation .uk-section p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+.spacilation .uk-section h5 {
+    color: #000000;
+    text-transform: capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* end overlay */
+/* start menu */
+.menu .uk-section h1 {
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu .uk-section h4 {
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu .uk-section b {
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.menu .uk-section .uk-button {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu .uk-section .uk-button:hover {
+    background-color: antiquewhite;
+    color:black;
+}
+/* end menu */
+/* start book */
+.book .uk-section .uk-button {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.book .uk-section .uk-button:hover {
+    background-color: antiquewhite;
+    color:black;
+}
+.book {
+    background-image: url("ff2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color :white;
+}
+.book .uk-section{
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+.book .uk-section h3 {
+    font-size: 30px;
+    font-family :cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* end book */
+/* start footer */
+.footer h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+.footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+.footer .uk-section .uk-button {
+    border: 2px solid yellow;
+    color: yellow;
+    border-radius: 2px;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer .uk-section .uk-button:hover {
+    background-color: aliceblue;
+    color: yellow;
+    border: 2px solid yellow;
+}
+/* end footer */
+
